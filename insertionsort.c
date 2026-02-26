@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+void insertionSort(int arr[], int n) {
+    for(int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+
+        while(j >= 0 && arr[j] > key) {
+            arr[j+1] = arr[j];
+            j--;
+        }
+        arr[j+1] = key;
+    }
+}
+
+void printArray(int arr[], int n) {
+    for(int i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+int main() {
+    int arr[] = {10, 3, 5, 1, 4};
+    int n = 5;
+
+    printf("Antes:\n");
+    printArray(arr, n);
+
+    insertionSort(arr, n);
+
+    printf("Depois:\n");
+    printArray(arr, n);
+
+    return 0;
+}
