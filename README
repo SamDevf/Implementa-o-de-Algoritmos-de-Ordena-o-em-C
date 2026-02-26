@@ -1,23 +1,24 @@
 
-# Algoritmos de Ordenação em C
+Algoritmos de Ordenação em C
 
 Este repositório contém a implementação de diversos algoritmos de ordenação desenvolvidos em linguagem C. O objetivo é demonstrar o funcionamento, a lógica e a eficiência de diferentes métodos para organizar conjuntos de dados.
 
-##  Algoritmos Implementados
+Algoritmos Implementados
 
 Os seguintes métodos foram desenvolvidos e testados:
 
-* **Bubble Sort:** Algoritmo simples baseado em trocas adjacentes.
-* **Selection Sort:** Seleciona o menor elemento e o coloca na posição correta.
-* **Insertion Sort:** Constrói a ordenação final um item por vez, como organizar cartas na mão.
-* **Shell Sort:** Uma extensão do Insertion Sort que permite a troca de itens distantes.
-* **Quick Sort:** Estratégia de "dividir para conquistar" utilizando um pivô.
-* **Merge Sort:** Divide o array recursivamente e os combina de forma ordenada.
+Bubble Sort: Algoritmo simples baseado em trocas adjacentes.
+Selection Sort: Seleciona o menor elemento e o coloca na posição correta.
+Insertion Sort: Constrói a ordenação final um item por vez, como organizar cartas na mão.
+Shell Sort:Uma extensão do Insertion Sort que permite a troca de itens distantes.
+Quick Sort: Estratégia de "dividir para conquistar" utilizando um pivô.
+Merge Sort: Divide o array recursivamente e os combina de forma ordenada.
 
-##  Funcionamento
+Funcionamento
 
 As implementações contam com:
 
-1. **Lógica Principal:** Cada algoritmo em sua respectiva função.
-2. **Função Auxiliar:** Uma rotina para exibir os elementos do array, permitindo a visualização do estado antes e depois do processo de ordenação.
+1. Lógica Principal: Cada algoritmo em sua respectiva função.
+2. Função Auxiliar: Uma rotina para exibir os elementos do array, permitindo a visualização do estado antes e depois do processo de ordenação.
+
 
